@@ -49,9 +49,7 @@ $databases['default']['default'] = array (
   'host' => getenv('DB_HOST'),
   'prefix' => '',
   'port' => '3306',
-  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'driver' => 'mysql',
-  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 
 $settings['hash_salt'] = getenv('HASH_SALT');
